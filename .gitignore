@@ -1,7 +1,14 @@
-# WordPress secrets (DB password, auth keys)
-blog.gokarnasamudra.com/wp-config.php
+# WordPress blog (not deployed from this repo)
+blog.gokarnasamudra.com/
+
+# Secrets (DB passwords, auth keys, env vars)
+wp-config.php
+.env
+
+# Database dumps and archives
+*.sql
+*.zip
 
 # Server / plugin logs
 error_log
 *.log
-blog.gokarnasamudra.com/wp-content/uploads/wc-logs/

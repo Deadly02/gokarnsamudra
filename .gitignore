@@ -1,0 +1,7 @@
+# WordPress secrets (DB password, auth keys)
+blog.gokarnasamudra.com/wp-config.php
+
+# Server / plugin logs
+error_log
+*.log
+blog.gokarnasamudra.com/wp-content/uploads/wc-logs/

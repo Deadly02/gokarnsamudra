@@ -1,0 +1,167 @@
+# Copyright (C) 2025 Optima Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: graceful spark blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-29 08:31+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: functions.php:50
+msgid "Spark Post Slider"
+msgstr ""
+
+#: functions.php:65
+msgid "Enable Spark Post Slider"
+msgstr ""
+
+#: functions.php:97
+msgid "Top Navigaion"
+msgstr ""
+
+#: functions.php:102
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:116
+msgid "Enable Top Navigation"
+msgstr ""
+
+#: functions.php:131
+msgid "Top Navigation Text Color"
+msgstr ""
+
+#: functions.php:144
+msgid "Main Navigation Background Color"
+msgstr ""
+
+#: functions.php:157
+msgid "Main Navigation Active Link Color"
+msgstr ""
+
+#: functions.php:167 functions.php:312
+msgid "Favorite Categories"
+msgstr ""
+
+#: functions.php:170
+msgid "Select categories to display on homepage."
+msgstr ""
+
+#: functions.php:182
+msgid "Enable Favorite Categories Section"
+msgstr ""
+
+#: functions.php:197
+msgid "Section Title"
+msgstr ""
+
+#: functions.php:205
+msgid "-- Select Category --"
+msgstr ""
+
+#: functions.php:226
+#, php-format
+msgid "Category #%d"
+msgstr ""
+
+#: functions.php:244
+#, php-format
+msgid "Category #%d Image"
+msgstr ""
+
+#: functions.php:257
+msgid "Full"
+msgstr ""
+
+#: functions.php:258
+msgid "Boxed"
+msgstr ""
+
+#: functions.php:269
+msgid "Favorite Categories Width"
+msgstr ""
+
+#: functions.php:283
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:293
+msgid "Set-up Top Menu"
+msgstr ""
+
+#: header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/columns/column-one.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/columns/column-one.php:68
+#: template-parts/single/post-contents.php:50
+msgid " - By"
+msgstr ""
+
+#: template-parts/columns/column-one.php:93
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/columns/column-one.php:110
+msgid "Nothing Found!"
+msgstr ""
+
+#: template-parts/columns/column-one.php:111
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/sections/spark-slider.php:40
+msgid "General"
+msgstr ""
+
+#: template-parts/sections/spark-slider.php:65
+msgid "No Image Available"
+msgstr ""
+
+#: template-parts/sections/spark-slider.php:78
+#, php-format
+msgid "Read more about %s"
+msgstr ""
+
+#: template-parts/sections/spark-slider.php:86
+#, php-format
+msgid "Avatar for %s"
+msgstr ""
+
+#: template-parts/sections/spark-slider.php:91
+msgid "Written by"
+msgstr ""
+
+#: template-parts/sections/spark-slider.php:123
+msgid "Latest blog posts carousel"
+msgstr ""
+
+#: template-parts/single/post-contents.php:62
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/single/post-contents.php:76
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/single/post-contents.php:76
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/single/post-contents.php:76
+msgid "Comments"
+msgstr ""

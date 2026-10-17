@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<title>Gokarna Samudra Beach Resort | Best Beachside Resort in Gokarna</title>
+<meta name="description" content="Book your stay at Gokarna Samudra Beach Resort — Best Resort In Gokarna a serene beachfront retreat offering comfortable rooms, dining, and scenic views near Gokarna Beach. Perfect for family vacations and weekend getaways.">
+<meta name="keywords" content="Gokarna beach resort, beach resorts in Gokarna, gokarnasamudra, Gokarna stay, resorts near Gokarna beach, family resort Gokarna, Gokarna rooms, Gokarna hotel booking">
+<meta name="author" content="Gokarna Samudra Beach Resort">
+<meta property="og:title" content="Gokarna Samudra Beach Resort | Relax, Refresh & Relive">
+<meta property="og:description" content="Best Resort In Gokarna | Enjoy a peaceful getaway at Gokarna Samudra Beach Resort with sea-view rooms, modern amenities, and delicious dining. Book online today!">
+<meta property="og:image" content="resort-logo.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.gokarnasamudra.com/">
+<link rel="canonical" href="https://www.gokarnasamudra.com/">
+
+<link rel="icon" type="image/png" href="resort-logo.png">
+<link rel="preload" as="image" href="img1.webp">
+<link rel="preload" as="image" href="img2.webp">
+<link rel="preload" as="image" href="img3.webp">
+<link rel="preload" as="image" href="dining.webp">
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+  --sun:#FF6A00;
+  --sun-dark:#E55C00;
+  --text:#ffffff;
+  --off:#FAF7F3;
+  --max-width:1200px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+body{height:100%;color:var(--text);background:var(--off);}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;height:auto;display:block;}
+
+/* HEADER */
+.site-header{
+  position:fixed;left:0;right:0;top:0;z-index:60;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 28px;transition:background 0.28s,padding 0.28s;
+  background:linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.1));
+}
+.brand{display:flex;align-items:center;gap:14px;color:#fff;}
+.brand img{height:48px;width:48px;border-radius:50%;}
+.brand h1{font-size:18px;margin:0;font-weight:700;}
+.brand p{margin:0;font-size:12px;color:rgba(255,255,255,0.85);}
+nav{display:flex;gap:18px;align-items:center;}
+.nav-links{display:flex;gap:18px;list-style:none;}
+.nav-links a{color:#fff;padding:8px 12px;border-radius:8px;font-weight:600;transition:0.3s;}
+.nav-links a:hover{background:rgba(255,255,255,0.1);}
+.cta.book-btn{background:linear-gradient(90deg,var(--sun),var(--sun-dark));color:#fff;padding:10px 18px;border-radius:12px;font-weight:700;transition:0.3s;}
+.cta.book-btn:hover{opacity:0.85;}
+.burger{display:none;width:44px;height:44px;align-items:center;justify-content:center;border-radius:10px;background:rgba(255,255,255,0.3);cursor:pointer;}
+
+/* MOBILE NAV */
+.mobile-nav{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:80;padding-top:90px;}
+.mobile-nav .inner{max-width:320px;margin:0 auto;background:white;border-radius:12px;padding:24px;}
+.mobile-nav .inner a{display:block;padding:14px 10px;border-radius:8px;font-weight:700;color:#002B3D;}
+.mobile-nav .inner a.book-btn{margin-top:12px;text-align:center;}
+
+/* HERO */
+.hero{
+  height:100vh; min-height:640px; display:grid; place-items:center;
+  background-image: url('img1.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  overflow:hidden;
+  transition: background-image 1.5s ease-in-out;
+}
+.hero::after{
+  content:""; position:absolute; inset:0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.45) 10%, rgba(0,0,0,0.55) 50%, rgba(0,0,0,0.65) 100%);
+  pointer-events:none;
+}
+.hero-inner{position:relative;z-index:2;max-width:var(--max-width);width:100%;padding:40px 28px;display:flex;gap:40px;align-items:center;justify-content:space-between;}
+.hero-left{flex:1;color:#fff;max-width:720px;}
+.hero-left .eyebrow{display:inline-block;font-weight:700;font-size:14px;background:rgba(255,255,255,0.1);padding:6px 10px;border-radius:999px;}
+.hero-left h2.hero-title{font-size:42px;line-height:1.1;margin:18px 0 12px;font-weight:800;}
+.hero-left p.lead{font-size:16px;opacity:0.95;margin-bottom:22px;}
+.hero-actions{display:flex;gap:12px;align-items:center;}
+.hero-actions a{padding:14px 20px;border-radius:12px;font-weight:700;display:inline-flex;align-items:center;gap:10px;}
+.hero-actions a.book-btn{background:linear-gradient(90deg,var(--sun),var(--sun-dark));color:#fff;}
+.hero-actions a.secondary{background:transparent;border:2px solid rgba(255,255,255,0.18);color:#fff;}
+.hero-right{width:320px;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;}
+.room-carousel{position:relative;width:320px;height:400px;perspective:1000px;}
+.room-carousel img{position:absolute;width:100%;height:100%;border-radius:16px;box-shadow:0 12px 40px rgba(2,8,20,0.12);transition:opacity 1.5s ease, transform 1.5s ease;object-fit:cover;top:0;left:0;}
+
+/* Responsive */
+@media(max-width:768px){
+  .hero-inner{flex-direction:column;align-items:center;gap:24px;padding:20px 16px;}
+  .hero-left h2.hero-title{font-size:32px;text-align:center;}
+  .hero-left p.lead{text-align:center;font-size:14px;}
+  .hero-actions{flex-direction:column;gap:10px;}
+  .hero-actions a{width:100%;text-align:center;padding:12px 18px;font-size:14px;}
+  .hero-right{width:90%;max-width:320px;}
+  .nav-links{display:none;}
+  .burger{display:flex;}
+}
+/* MOBILE RESPONSIVE HERO ADJUSTMENTS */
+@media(max-width:768px){
+  /* Make hero-right (carousel) appear on top and text below */
+  .hero-inner {
+    flex-direction: column-reverse; /* Carousel first, text after */
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Hero actions buttons in a single row */
+  .hero-actions {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .hero-actions a {
+    flex: 1 1 auto; /* make buttons stretch equally */
+    max-width: 160px; /* optional max-width for nice layout */
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  /* Hero-right carousel full width on mobile */
+  .hero-right {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  /* Adjust hero-left text width and alignment */
+  .hero-left {
+    width: 100%;
+    max-width: 95%;
+    text-align: center;
+  }
+  
+  .hero-left h2.hero-title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  
+  .hero-left p.lead {
+    font-size: 14px;
+  }
+
+  /* Optional: Adjust carousel image height for mobile */
+  .room-carousel {
+    height: 300px;
+  }
+}
+@media(max-width:768px){
+  .hero-actions {
+    flex-direction: column; /* stack buttons vertically */
+    width: 100%;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .hero-actions a {
+    flex: none; /* remove shrinking */
+    width: 100%; /* full width */
+    max-width: none; /* remove 160px limit */
+    padding: 14px 0; 
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* MOBILE NAV BUTTONS FIX */
+@media(max-width:768px){
+  .mobile-nav .inner a.book-btn,
+  .mobile-nav .inner a.secondary {
+    display: flex !important;          /* use flex to center content */
+    justify-content: center !important; /* center horizontally */
+    align-items: center !important;    /* center vertically */
+    width: 100% !important;            /* full width */
+    text-align: center !important;     /* center text */
+    font-weight: 800 !important;       /* bold */
+    font-size: 16px !important;        /* larger font */
+    padding: 14px 0 !important;        /* vertical padding only */
+    border-radius: 12px !important;
+    margin: 10px 0 !important;         /* spacing between buttons */
+    gap: 0 !important;                 /* remove icon spacing if any */
+    line-height: 1 !important;         /* normalize line height */
+  }
+
+  .mobile-nav .inner a.book-btn {
+    background: linear-gradient(90deg, #FF6A00, #E55C00);
+    color: #fff;
+  }
+
+  .mobile-nav .inner a.secondary {
+    background: transparent;
+    border: 2px solid rgba(0,43,61,0.5);
+    color: #002B3D;
+  }
+}
+/* MOBILE NAV ADJUSTMENTS */
+@media(max-width:768px){
+  /* Hide top header "Book Now" button on mobile */
+  .site-header .cta.book-btn {
+    display: none;
+  }
+
+  /* Style book button inside mobile nav */
+  .mobile-nav .inner a.book-btn {
+    display: block;
+    background: linear-gradient(90deg, #FF6A00, #E55C00);
+    color: #fff;
+    font-weight: 800; /* bold */
+    text-align: center; /* center text */
+    padding: 14px 0;
+    border-radius: 12px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+  }
+
+  .mobile-nav .inner a.book-btn:hover {
+    opacity: 0.85;
+  }
+}
+
+
+  .mobile-nav .inner a.book-btn {
+    background: linear-gradient(90deg, #FF6A00, #E55C00);
+    color: #fff;
+  }
+
+  .mobile-nav .inner a.secondary {
+    background: transparent;
+    border: 2px solid rgba(0,43,61,0.5);
+    color: #002B3D;
+  }
+}
+.facilities {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f9fa;
+}
+.facilities h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #0077b6; /* Resort theme blue */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.facility-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.facility-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.facility-card i {
+  font-size: 2.5rem;
+  color: #ff7f11; /* Warm orange for icons */
+  margin-bottom: 15px;
+}
+.facility-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #023e8a;
+}
+.facility-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .facility-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .facility-container {
+    grid-template-columns: 1fr;
+  }
+}
+.dining {
+  background: #fff;
+  padding: 60px 20px;
+}
+.dining-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.dining-text {
+  flex: 1;
+  min-width: 300px;
+}
+.dining-text h2 {
+  font-size: 2rem;
+  color: #0077b6;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.dining-text p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.dining-btn {
+  display: inline-block;
+  background: #ff7f11;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.dining-btn:hover {
+  background: #e96d0b;
+}
+.dining-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+.dining-image img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dining-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .dining-image img {
+    margin-top: 20px;
+  }
+}
+
+.gallery {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.gallery h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0077b6;
+  margin-bottom: 30px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Lightbox Styling */
+.lightbox {
+    
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+/* CONTACT SECTION */
+.contact {
+  background: #FAF7F3;
+  padding: 80px 20px;
+}
+.contact .section-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #002B3D;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact-info h3,
+.contact-form h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--sun-dark);
+  margin-bottom: 16px;
+}
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: vertical;
+}
+.contact-form button {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #FF6A00, #E55C00);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form button:hover {
+  opacity: 0.85;
+}
+/* FOOTER */
+.site-footer {
+  background: #002B3D;
+  color: #fff;
+  padding: 60px 20px 20px;
+  font-family: Inter, sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-brand img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+.footer-brand h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+.footer-brand p {
+  font-size: 14px;
+  opacity: 0.85;
+}
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+.footer-links ul li a:hover {
+  opacity: 1;
+}
+.footer-contact p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.85;
+}
+.footer-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+.footer-social a {
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.footer-social a:hover {
+  color: #FF6A00;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.7;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 16px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .footer-links ul li, .footer-contact p {
+    text-align: center;
+  }
+  .footer-social {
+    justify-content: center;
+  }
+}
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 100;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.whatsapp-float i {
+  font-size: 20px;
+}
+.whatsapp-float:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+}
+
+/* Mobile adjustments */
+@media(max-width:768px){
+  .whatsapp-float {
+    padding: 12px 16px;
+    font-size: 16px;
+    bottom: 18px;
+    right: 18px;
+  }
+  
+
+
+}
+@media(max-width:768px){
+  .hero-inner {
+    margin-top: 60px; /* you already have this */
+    margin-bottom: 40px; /* add this to push content below */
+    z-index: 2; /* ensure it's above other sections */
+  }
+
+  .hero {
+    position: relative;
+    z-index: 1; /* background layer */
+    
+  }
+   .hero-actions a {
+    position: relative;
+    z-index: 5; /* above overlapping content */}
+}
+
+</style>
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+917760850555" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i> Chat
+</a>
+
+<!-- HEADER -->
+<header class="site-header" style="margin-bottom: 12px;">
+  <div class="brand">
+    <img src="resort-logo.png" alt="Logo">
+    <div>
+      <h1>Gokarna Samudra</h1>
+      <p>Beach Resort — Relax | Refresh | Relive</p>
+    </div>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" class="cta book-btn">Book Now</a>
+    <div class="burger" id="burger">☰</div>
+  </nav>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <div class="inner">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" class="book-btn">Book Now</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<main id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <span class="eyebrow">Gokarna Samudra Beach Resort|Best Resort in Gokarna</span>
+      <h2 class="hero-title">A Relaxing Resort in Gokarna Near the Beach</h2>
+      <p class="lead">Experience a peaceful coastal getaway at Gokarna Samudra Beach Resort, a comfortable resort
+in Gokarna offering modern amenities, comfortable accommodation and a relaxing atmosphere.
+Located close to Gokarna's beautiful beaches, our resort is an ideal choice for couples, families and
+travellers looking for a memorable stay in Gokarna. Enjoy comfortable rooms, a refreshing
+swimming pool, delicious dining and the natural beauty of Gokarna.</p>
+      <div class="hero-actions" style="margin-bottom: 12px;">
+        <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" class="book-btn" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:14px 20px; font-weight:700; border-radius:12px;">
+  Book Now
+</a>
+<a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" class="secondary" style="display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:14px 20px; font-weight:700; border-radius:12px;margin-bottom: 12px;">
+  View Rooms
+</a>
+
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="room-carousel" id="carousel"></div>
+    </div>
+  </div>
+</main>
+<!-- ABOUT US SECTION -->
+<section id="about" style="padding:80px 20px; background:#fff; color:#002B3D;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:40px;">
+    
+    <!-- Image -->
+    <div style="flex:1; min-width:300px;">
+      <img src="img2.webp" alt="Gokarna Samudra Beach Resort" style="width:100%; border-radius:16px; box-shadow:0 12px 40px rgba(2,8,20,0.12);">
+    </div>
+
+    <!-- Text Content -->
+    <div style="flex:1; min-width:300px;">
+      <h2 style="font-size:32px; font-weight:800; margin-bottom:16px;">Your Comfortable Stay in Gokarna | Gokarna Samudra Beach Resort</h2>
+      <p style="font-size:16px; line-height:1.6; margin-bottom:16px;">
+        Gokarna Samudra Beach Resort is a peaceful resort in Gokarna created for travellers seeking
+comfort, relaxation and a memorable coastal experience. Surrounded by the natural charm of
+Gokarna, our resort offers comfortable accommodation, modern amenities and a welcoming
+atmosphere for couples, families and friends.
+Enjoy a refreshing swimming pool, comfortable rooms, delicious dining and relaxing resort
+surroundings while exploring the beaches and attractions of Gokarna.
+      </p>
+      <p style="font-size:16px; line-height:1.6; margin-bottom:20px;">
+        Whether you are planning a family vacation, romantic getaway or weekend trip, Gokarna Samudra
+Beach Resort offers a comfortable stay in Gokarna and a relaxing base for your coastal holiday.
+Stay, relax and experience the beauty of Gokarna with Gokarna Samudra Beach Resort.
+      </p>
+      <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" style="display:inline-block; padding:14px 28px; background:linear-gradient(90deg,#FF6A00,#E55C00); color:#fff; font-weight:700; border-radius:12px; text-align:center; transition:0.3s;">Book Your Stay</a>
+    </div>
+
+  </div>
+</section>
+<!-- ROOMS SECTION -->
+<section id="rooms" style="padding:60px 20px; background:#FAF7F3; color:#002B3D;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <h2 style="text-align:center; font-size:36px; margin-bottom:40px; font-weight:800;">Our Rooms & Accommodations</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px;">
+      
+      <!-- Standard Room -->
+      <div style="background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+        <img src="img3.webp" alt="Standard Room" style="width:100%; height:200px; object-fit:cover;">
+        <div style="padding:20px;">
+          <h3 style="font-size:22px; margin-bottom:10px; font-weight:700;">Standard Room</h3>
+          <p style="font-size:14px; line-height:1.5; margin-bottom:15px;">Comfortable and cozy room with modern amenities and a relaxing ambiance. Perfect for solo travelers and couples.</p>
+          <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" style="display:inline-block; text-align:center; padding:12px 20px; border-radius:12px; background:linear-gradient(90deg,#FF6A00,#E55C00); color:#fff; font-weight:700;">Book Now</a>
+        </div>
+      </div>
+      
+      <!-- Deluxe Room -->
+      <div style="background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+        <img src="img1.webp" alt="Deluxe Room" style="width:100%; height:200px; object-fit:cover;">
+        <div style="padding:20px;">
+          <h3 style="font-size:22px; margin-bottom:10px; font-weight:700;">Deluxe Room</h3>
+          <p style="font-size:14px; line-height:1.5; margin-bottom:15px;">Spacious room with premium furniture, balcony, and scenic views. Ideal for families or guests wanting extra comfort.</p>
+          <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" style="display:inline-block; text-align:center; padding:12px 20px; border-radius:12px; background:linear-gradient(90deg,#FF6A00,#E55C00); color:#fff; font-weight:700;">Book Now</a>
+        </div>
+      </div>
+      
+      <!-- Pool Area / Special Cottage -->
+      <div style="background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+        <img src="img2.webp" alt="Pool Area" style="width:100%; height:200px; object-fit:cover;">
+        <div style="padding:20px;">
+          <h3 style="font-size:22px; margin-bottom:10px; font-weight:700;">Pool Front Cottages</h3>
+          <p style="font-size:14px; line-height:1.5; margin-bottom:15px;">Cottages with private sit-out area overlooking our sparkling swimming pool. Perfect for a relaxing retreat with scenic views.</p>
+          <a href="https://bookings.resavenue.com/engine-ibe/search?regCode=TVAX0330" style="display:inline-block; text-align:center; padding:12px 20px; border-radius:12px; background:linear-gradient(90deg,#FF6A00,#E55C00); color:#fff; font-weight:700;">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- DINING SECTION -->
+<section id="dining" style="padding:60px 20px; background:#fff; color:#002B3D;">
+  <div style="max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; gap:40px; align-items:center;">
+    
+    <!-- Image -->
+    <div style="flex:1; min-width:300px;">
+      <img src="dining.webp" alt="Ocean Deck" style="width:100%; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.1);">
+    </div>
+
+    <!-- Text -->
+    <div style="flex:1; min-width:300px;">
+      <h2 style="font-size:32px; font-weight:800; margin-bottom:20px;">Ocean Deck Restaurant</h2>
+      <p style="font-size:16px; line-height:1.6; margin-bottom:20px;">
+        Our in-house dining option is the Ocean Deck – a cozy restaurant offering a variety of dishes from around the globe. Enjoy Indian, Chinese, Continental, Pan-Asian, and South Indian cuisines with a view of the serene beach and poolside. Special meals like Jain food are also available on request.
+      </p>
+      <a href="#contact" style="display:inline-block; padding:12px 24px; border-radius:12px; background:linear-gradient(90deg,#FF6A00,#E55C00); color:#fff; font-weight:700; text-align:center;">Reserve a Table</a>
+    </div>
+
+  </div>
+</section>
+<!-- Add this inside <head> if not already present -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- Facilities Section -->
+<section class="facilities">
+ <center> <h2>Our Facilities</h2></center>
+  <div class="facility-container">
+    <div class="facility-card">
+      <i class="fas fa-swimming-pool"></i>
+      <h3>Swimming Pool</h3>
+      <p>Relax and refresh in our clean and well-maintained pool area.</p>
+    </div>
+    <div class="facility-card">
+      <i class="fas fa-utensils"></i>
+      <h3>Restaurant</h3>
+      <p>Delicious multi-cuisine dishes served fresh every day.</p>
+    </div>
+    <div class="facility-card">
+      <i class="fas fa-wifi"></i>
+      <h3>Free Wi-Fi</h3>
+      <p>Stay connected with our high-speed internet service.</p>
+    </div>
+    <div class="facility-card">
+      <i class="fas fa-concierge-bell"></i>
+      <h3>Room Service</h3>
+      <p>Prompt and friendly room service for your convenience.</p>
+    </div>
+    <div class="facility-card">
+      <i class="fas fa-spa"></i>
+      <h3>Samudra Hall </h3>
+      <p>Samudra Hall — A versatile, air‑conditioned event space with fast Wi‑Fi, projector, and AV</p>
+    </div>
+    <div class="facility-card">
+      <i class="fas fa-car"></i>
+      <h3>Parking</h3>
+      <p>Ample parking space available for our guests.</p>
+    </div>
+  </div>
+</section>
+<!-- Dining Section -->
+<!--<section class="dining">-->
+<!--  <div class="dining-content">-->
+<!--    <div class="dining-text">-->
+<!--      <h2>Ocean Deck – Our Signature Dining</h2>-->
+<!--      <p>Indulge in a multi-cuisine experience at our in-house restaurant, Ocean Deck. -->
+<!--      From Indian tandoor dishes to Chinese, Pan-Asian, Continental, and South Indian specialties, -->
+<!--      we have something to tantalize every palate. We also offer Jain food on request.</p>-->
+<!--      <p>Whether you're dining under the stars or enjoying a morning breakfast with a view, -->
+<!--      Ocean Deck promises a delightful culinary experience.</p>-->
+<!--      <a href="#menu" class="dining-btn">View Menu</a>-->
+<!--    </div>-->
+<!--    <div class="dining-image">-->
+<!--      <img src="dining.webp" alt="Dining at Ocean Deck">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+  <div class="gallery-container">
+    <h2>Our Gallery</h2>
+    <div class="gallery-grid">
+      <img src="DSC07696.webp" alt="Standard Room" onclick="openLightbox(this)">
+      <img src="DOC-20250913-WA0159.webp" alt="Deluxe Room" onclick="openLightbox(this)">
+      <img src="DSC07828.webp" alt="Pool Area" onclick="openLightbox(this)">
+      <img src="img1.webp" alt="Beach View" onclick="openLightbox(this)">
+      <img src="img2.webp" alt="Restaurant" onclick="openLightbox(this)">
+      <img src="img3.webp" alt="Resort View" onclick="openLightbox(this)">
+      <img src="DOC-20250913-WA0072_Night pool area with moon.webp" alt="Resort View" onclick="openLightbox(this)">
+      <img src="IMG_9567.webp" alt="Resort View" onclick="openLightbox(this)">
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightboxImg">
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Address:</strong>  Belehittal Rd, Dandebagh, Gokarna, Karnataka 581326</p>
+        <p><strong>Phone:</strong> +91 77608 50555</p>
+        <p><strong>Email:</strong>  reservations@gokarnasamudra.com</p>
+        <p><strong>Check-in:</strong> 12:00 HRS | <strong>Check-out:</strong> 11:00 HRS</p>
+      </div>
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form id="whatsappForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <img src="resort-logo.png" alt="Logo">
+      <h2>Gokarna Samudra Beach Resort</h2>
+      <p>Relax | Refresh | Rejuvenate</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Gokarna Samudra Beach Resort, Gokarna, Karnataka</p>
+      <p>Phone: +91 77608 50555</p>
+      <p>Email: reservations@gokarnasamudra.com</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/share/1A2BehUjQD/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/gsbresort.gokarna?igsh=MW4zdGxjd2Vpbmh4cg=="><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/+917760850555"><i class="fab fa-whatsapp"></i></a>
+        
+        
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Gokarna Samudra Beach Resort. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script >
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if(target){
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+<script>
+document.getElementById('whatsappForm').addEventListener('submit', function(e){
+  e.preventDefault(); // prevent normal form submission
+
+  // Get form values
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  // Construct WhatsApp message
+  const waMessage = `Hello! My name is ${name}.%0AEmail: ${email}%0A%0AMessage: ${message}`;
+
+  // Replace with your WhatsApp number including country code (no +)
+  const waNumber = "917760850555";
+
+  // Open WhatsApp chat
+  window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(waMessage)}`, '_blank');
+});
+</script>
+<script>
+// MOBILE NAV TOGGLE
+const burger=document.getElementById('burger');
+const mobileNav=document.getElementById('mobileNav');
+burger.addEventListener('click',()=>{mobileNav.style.display='block';});
+mobileNav.addEventListener('click',()=>{mobileNav.style.display='none';});
+
+// HERO BACKGROUND & ROOM CAROUSEL
+const hero=document.querySelector('.hero');
+const bgImages=['img1.webp','img2.webp','img3.webp'];
+let bgIndex=0;
+
+const carousel=document.getElementById('carousel');
+const roomImages=['img1.webp','img2.webp','img3.webp'];
+let roomIndex=0;
+
+// inject room images
+roomImages.forEach((src,i)=>{
+  const img=document.createElement('img');
+  img.src=src;
+  img.style.opacity=i===0?'1':'0';
+  carousel.appendChild(img);
+});
+const imgs=carousel.querySelectorAll('img');
+
+function changeHeroAndCarousel(){
+  hero.style.backgroundImage=`url(${bgImages[bgIndex]})`;
+  bgIndex=(bgIndex+1)%bgImages.length;
+  imgs.forEach((img,i)=>{
+    img.style.opacity='0';
+    img.style.transform=`scale(${0.9 + 0.05*i}) translateY(${20*i}px)`;
+  });
+  imgs[roomIndex].style.opacity='1';
+  imgs[roomIndex].style.transform='scale(1) translateY(0px)';
+  roomIndex=(roomIndex+1)%imgs.length;
+}
+changeHeroAndCarousel();
+setInterval(changeHeroAndCarousel,2000); // 2 seconds
+</script>
+<script>
+// Ensure lightbox is hidden on page load
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("lightbox").style.display = "none";
+});
+
+function openLightbox(img) {
+  const lightbox = document.getElementById("lightbox");
+  document.getElementById("lightboxImg").src = img.src;
+  lightbox.style.display = "flex"; // Show lightbox
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+}
+</script>
+</body>
+</html>

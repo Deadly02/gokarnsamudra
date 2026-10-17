@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coming Soon — Resort Website</title>
+  <meta name="description" content="Our resort website is launching soon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent-1: #f4a261;
+      --accent-2: #0077b6;
+      --muted: #6b7280;
+      --card-shadow: 0 10px 30px rgba(16,24,40,0.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family: 'Inter', sans-serif;
+      background:#ffffff;
+      color:#111827;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+
+    .card{
+      width:100%;
+      max-width:800px;
+      background:#ffffff;
+      border-radius:20px;
+      box-shadow:var(--card-shadow);
+      text-align:center;
+      padding:50px 30px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .logo{
+      width:220px;
+      height:auto;
+      display:block;
+      margin:0 auto 20px;
+      border-radius:12px;
+      box-shadow:0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    h1{
+      margin:0;
+      font-size:clamp(26px,4vw,38px);
+      font-weight:800;
+      letter-spacing:-0.02em;
+      color:#333;
+    }
+
+    p.lead{
+      margin:12px 0 0;
+      color:var(--muted);
+      font-size:clamp(15px,1.4vw,17px);
+      max-width:40ch;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .shape{
+      position:absolute;
+      border-radius:50%;
+      filter:blur(30px);
+      opacity:0.12;
+    }
+    .shape.one{width:250px;height:250px;right:-80px;top:-60px;background:linear-gradient(90deg,var(--accent-1),var(--accent-2));}
+    .shape.two{width:150px;height:150px;left:-60px;bottom:-40px;background:linear-gradient(90deg,var(--accent-2),var(--accent-1));}
+
+    @media (max-width:500px){
+      .logo{width:160px;}
+      .card{padding:30px 20px;}
+    }
+
+    .card{opacity:0;transform:translateY(8px) scale(0.995);animation:fadeIn 650ms ease-out forwards}
+    @keyframes fadeIn{to{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="shape one" aria-hidden></div>
+    <div class="shape two" aria-hidden></div>
+
+    <img src="https://gokarnasamudra.com/resort-logo.png" alt="Resort Logo" class="logo" />
+
+    <h1>Our Website is Launching Soon</h1>
+    <p class="lead">We’re crafting an amazing online experience for you. Stay tuned for updates and get ready to explore our resort!</p>
+  </main>
+</body>
+</html>

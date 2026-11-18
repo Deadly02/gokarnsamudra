@@ -21,3 +21,6 @@ jobs:
             .github/**
             .cpanel.yml
             blog.gokarnasamudra.com/**
+            _build/**
+            **/node_modules/**
+            **/*.md

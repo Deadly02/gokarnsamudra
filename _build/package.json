@@ -1,0 +1,14 @@
+{
+  "name": "gokarnasamudra-build",
+  "private": true,
+  "description": "Static site generator for gokarnasamudra.com (not deployed)",
+  "scripts": { "build": "node build.js", "qa": "node qa.js", "images": "node images.js" },
+  "dependencies": {
+    "clean-css": "5.3.3",
+    "html-minifier-terser": "7.2.0",
+    "lucide-static": "0.460.0",
+    "sharp": "0.33.5",
+    "simple-icons": "13.21.0",
+    "terser": "5.36.0"
+  }
+}

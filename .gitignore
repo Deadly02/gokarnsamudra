@@ -12,3 +12,7 @@ wp-config.php
 # Server / plugin logs
 error_log
 *.log
+
+# Site generator dependencies (not deployed)
+_build/node_modules/
+.claude/

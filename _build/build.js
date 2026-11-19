@@ -795,7 +795,7 @@ function layout(p, cssV, jsV, crit) {
   const live = pages.filter(p => !p.noindex);
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${live.map(p => `  <url><loc>${SITE}${p.path}</loc><lastmod>${TODAY}</lastmod></url>`).join('\n')}\n</urlset>\n`);
   const bots = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'PerplexityBot', 'Google-Extended', 'ClaudeBot', 'Bingbot'];
-  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\n\n${bots.map(b => `User-agent: ${b}\nAllow: /`).join('\n\n')}\n\nSitemap: ${SITE}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /dev/\n\n${bots.map(b => `User-agent: ${b}\nAllow: /\nDisallow: /dev/`).join('\n\n')}\n\nSitemap: ${SITE}/sitemap.xml\n`);
   fs.writeFileSync(path.join(ROOT, INDEXNOW_KEY + '.txt'), INDEXNOW_KEY);
   fs.writeFileSync(path.join(ROOT, 'site.webmanifest'), JSON.stringify({ name: 'Gokarna Samudra Beach Resort', short_name: 'Gokarna Samudra', start_url: '/', display: 'browser', background_color: '#FAF7F3', theme_color: '#002B3D', icons: [{ src: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' }, { src: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' }] }, null, 1));
   fs.writeFileSync(path.join(ROOT, 'llms.txt'), `# Gokarna Samudra Beach Resort

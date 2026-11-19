@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/gokarnas/public_html/
-    - /usr/bin/rsync -av --exclude='.git*' --exclude='.cpanel.yml' --exclude='blog.gokarnasamudra.com' --exclude='_build' --exclude='node_modules' --exclude='*.md' ./ $DEPLOYPATH
+    - /usr/bin/rsync -av --exclude='.git*' --exclude='.cpanel.yml' --exclude='blog.gokarnasamudra.com' --exclude='_build' --exclude='dev' --exclude='node_modules' --exclude='*.md' ./ $DEPLOYPATH

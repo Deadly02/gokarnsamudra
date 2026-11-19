@@ -20,5 +20,6 @@ jobs:
             .cpanel.yml
             blog.gokarnasamudra.com/**
             _build/**
+            dev/**
             **/node_modules/**
             **/*.md

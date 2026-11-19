@@ -1,25 +1,33 @@
 User-agent: *
 Allow: /
+Disallow: /dev/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /dev/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /dev/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /dev/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /dev/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /dev/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /dev/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /dev/
 
 Sitemap: https://www.gokarnasamudra.com/sitemap.xml
